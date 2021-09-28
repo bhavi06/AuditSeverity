@@ -13,7 +13,7 @@ namespace AuditSeverityModule.Repository
     {
         public readonly log4net.ILog logs = log4net.LogManager.GetLogger(typeof(SeverityRepo));
 
-        Uri baseAddress = new Uri("https://localhost:44368/api");   
+        Uri baseAddress = new Uri("https://auditbenchmarking.azurewebsites.net/api");   
         HttpClient client;
 
         public SeverityRepo()
